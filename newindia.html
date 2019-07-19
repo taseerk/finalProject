@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<link rel="stylesheet" href="culture.css">
+<script src="culture.js"> </script>
+<body>
+  <h1><center>Culture Central<center/></h1>
+    <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#aboutus">About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Information
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="newindia.html">India</a>
+      <a href="newmexico.html">Mexico</a>
+      <a href="newnigeria.html">Nigeria</a>
+      <a href="newpakistani.html">Pakistan</a>
+    </div>
+  </div>
+  </div>
+
+<h2>Indian Culture</h2>
+<p>Def: </p>
+
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+
+  <article>
+    <h1>India</h1>
+    <p>Languages: Assamese, Bengali, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Malayalam, Manipuri, Marathi, Nepali, Oriya, Punjabi, Sanskrit, Sindhi, Tamil, Telugu, Urdu, Bodo, Santhali, Maithili and Dogri
+
+    Religion: Hinduism (majority religion), Islam (largest minority religion), Sikhism, Christianity, Buddhism, Jainism, Zoroastrianism, and the Bahá'í Faith, Other folk religions
+
+    Food: characterized by subtle and sophisticated use of spices, fruits, grains, and vegetables; cooking style and presentation differs by region; Buddhists, Jains, and Hindus are vegetarian; mix of Persia, ancient Greece, Mongols, West Asia, New World (aka Americas); North uses more milk based products, Eastern is famous for their sweets, fish and rice are staples, South emphasizes heavily on rice, North Eastern is influenced by China, Western is based on geography (Gujarati uses sweetness, Goa uses more meat and less spiciness); Beverages: Tea, Lassi (yogurt-based drink), coffee, coconut water, nimbu pani (lemonade), sharbat (juices using petals and fruit), badam doodh (almond milk)
+
+    Fashion:
+    Jewelry:
+    Antique, Lacquer, Pachchikam, Silver, Filigree, Tribal, Meenakari, Kundan, Jadau (engraved), Handmade, Bead, Fashion
+    Bridal: one of the most popular typically worn by brides(North vs South)
+    Gold: most common in India, represents auspiciousness
+    Ivory: a must for brides before marriage (Gujarat)
+    Navratna: astrological significance
+    Stone: astrological significance
+    Temple: adorn the gods and goddesses
+    Clothing:
+    Men:
+    Traditional: dhotis or lungis
+    Modern: pants and suits, shirts, etc
+    Women:
+    Traditional: salwar suit, sari, lengha
+    Modern: Western clothing
+
+    Arts:
+    Paintings: Mughal miniature paintings, Murals of Ajanta and Ellora, Depict forces of nature
+    Literature: Buddhist palm leaf manuscripts, Mahabharata, The Vedas, Ramayana
+    Rangoli: an array of colors usually in a design use to decorate courtyards (handmade)
+
+    Sculpture: Idols of gods and goddesses often located near temples also near in the Ajanta and Ellora caves
+    Architecture: temples
+    Dance:
+    Classical: used as a form of worship, use mudras (hand symbols) as a form of communication between humans and gods
+    ex: Bharatnatyam, Kathak, Kathakali, Kuchipudi, Manipuri, Mohiniattam, and Odissi
+    Tribal: traditional dances that relate to the tribal people of India, simple, used to express joy
+    Bollywood: more modern and popularized by movies
+
+    Miscellaneous:
+    Sports: Kabaddi, cricket, chess, archery, wrestling, soccer, field hockey
+    Weddings: Weddings tend to vary based on the region but there are a few things that stay the same such as</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+
+
+</body>
+</html>
