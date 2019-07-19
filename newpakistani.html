@@ -1,132 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
-<link rel="stylesheet" href="culture.css">
-<script src="culture.js"> </script>
-<body>
-  <h1><center>Culture Central<center/></h1>
-    <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="aboutus.html">About Us</a>
-  <div class="dropdown">
-    <button class="dropbtn">Information
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="newindia.html">India</a>
-      <a href="newmexico.html">Mexico</a>
-      <a href="newnigeria.html">Nigeria</a>
-      <a href="pakistani.html">Pakistan</a>
+<! DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="culture.css">
+    <script src="culture.js"> </script>
+  </head>
+  <body>
+    <h1><center>Culture Central<center/></h1>
+      <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">Information
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="newindia.html">India</a>
+        <a href="newmexico.html">Mexico</a>
+        <a href="newnigeria.html">Nigeria</a>
+        <a href="newpakistani.html">Pakistan</a>
+      </div>
     </div>
   </div>
-  </div>
-
-<h2>Pakistan</h2>
-<p>Def: </p>
-
-
-<header>
-  <h2>Cities</h2>
-</header>
-
-
-  <article>
     <h1>Pakistan</h1>
-    <p>Pakistani (Taseer):
+    <h3>Description:</h3> <p>Pakistan, or the Islamic Republic of Pakistan, is a heavily populated country located in Southwest Asia. (population: 197 million [2017])</p>
 
-    Definition: Pakistan, or the Islamic Republic of Pakistan, is a heavily populated country located in Southwest Asia. (population: 197 million [2017])
+    <h3>Languages:</h3> <p>The languages spoken in Pakistan include: Urdu, Punjabi, Sindhi, Pashto, Saraiki, Balochi, and English. Urdu is widely spoken all over the country by all residents. English is widely spoken as well by residents and politicians. </p>
 
-    Languages: Urdu, Punjabi, Sindhi, Pashto, Saraiki, Balochi, Brahui
+    <h3>Food:</h3> <p>Characterized by its spiciness and heavy seasoning, Pakistani food is a blend of Indian, Central Asian, and Mughal cuisine. Some popular dishes include biryani, pulao, nihari, lentils, qorma, and paya. Fusion foods are also common; blending Pakistani and Chinese foods is a common trend. Also, while most of Pakistan enjoys spicy food, the northern areas enjoy more mild food.</p>
 
-    Food: Characterized by its spiciness and heavy seasoning, Pakistani food is a blend of Indian, Central Asian, and Mughal cuisine. Some popular dishes include biryani, pulao, nihari, lentils, qorma, and paya. Fusion foods are also common; blending Pakistani and Chinese foods is a common trend. Also, while most of Pakistan enjoys spicy food, the northern part cooks more mild food.
+    <h3>Religion:</h3> <p>The main religion of Pakistan is Islam. Christianity and Hinduism are also practiced in Pakistan, but in small numbers. Religions other than Islam make up roughly 3% of Pakistan.</p>
 
-    Religion: The main religion of Pakistan is Islam. Christianity and Hinduism are also practiced in Pakistan, but in small numbers.
+    <h3>Arts:</h3> <p>Poetry, textiles, and architecture are the major art forms of Pakistan.</p>
+    <ul style="list-style-type:circle;">
+      <li>Poetry- One type of poetry is <i>Ghazal, </i>romantic poems with musical accompaniment.</li>
+      <li>Textiles- Popular textiles feature colorful patterns of floral patterns, and sometimes scenes of nature.</li>
+      <li>Architecture- Popular architectural sites include <i>Mohenjo-daro, Mosque of the Pearls, Shalimar Gardens,</i> and the <i>Badshahi Mosque.</i></li>
+    </ul>
+    <h3>Fashion:</h3>
+    <ul style="list-style-type:circle;">
+      <li>Clothes- Traditional clothing worn in Pakistan is called <i>shalwar kameez</i>. It is a long shirt paired with loose pants.</li>
+      <li>Jewelry- Traditional Pakistani necklaces and earrings are made of gold and are very heavy. Traditional Pakistani bracelets are called <i>chooriyan</i>. They are typically made of glass and come in different colors, and some even feature glitter. Lastly, a <i>tikka</i> is like a small broche, but it is worn on the forhead. <i>Tikkas</i> are usually worn on special occassions like weddings. </li>
+    </ul>
 
-    Arts: Poetry, painting, textiles, and architecture are the major art forms of Pakistan.
-    Poetry- Ghazal: romantic poems with musical accompaniment
-    Textiles- colorful patterns of flowers
-    Architecture- Mohenjo-daro, Mosque of the Pearls, Shalimar Gardens, Badshahi Mosque
-
-    Fashion:
-    Clothes- shalwar kameez
-    Jewelry- long, heavy necklace, long earrings, glass chooriyan, and a tikka.
-
-    Miscellaneous: Pakistan hosts the second largest mountain in the world. Named K2, or Mount Godwin-Austen or Chhogori, it peaks at 28,251 feet.
-
-
-</p>
-  </article>
-</section>
-
-
-
-</body>
+    <h3>Miscellaneous:</h3>
+    <ul>
+  <li>Landforms- Pakistan hosts the second largest mountain in the world. Named K2, or Mount Godwin-Austen or Chhogori, it peaks at 28,251 feet.</li>
+  <li>Henna- Henna tattoos, also called <i>mehndi</i>, are traditional temporary tattoos put on the hands, arms, and feet. Henna designs are usually intricate floral designs. Women get henna tattoos on special occassions like weddings.</li>
+</ul>
+    <br>
+    <h6>Resources:
+    <div><a href="https://www.britannica.com/place/Pakistan" target="_blank">https://www.britannica.com/place/Pakistan</a></div>
+    <div><a href="https://www.britannica.com/place/K2" target="_blank">https://www.britannica.com/place/K2</a></div>
+    <div><a href="https://www.commisceo-global.com/resources/country-guides/pakistan-guide" target="_blank">https://www.commisceo-global.com/resources/country-guides/pakistan-guide</a></div>
+    </h6>
+  </body>
 </html>
