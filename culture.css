@@ -67,6 +67,12 @@ div.pakistanpic2 img{
   float:none;
 }
 
+div.nigeriapic img{
+  float:none;
+  width: 300px;
+  height: 200px;
+}
+
 .header h1 {
   position: left;
   top: 18px;
