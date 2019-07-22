@@ -6,6 +6,18 @@ h6 {color:indigo}
 body{
   background-color: lavender
 }
+.header img {
+  float: left;
+  width: 90px;
+  height: 62px;
+  background: #555;
+}
+
+.header h1 {
+  position: left;
+  top: 18px;
+  left: 10px;
+}
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -43,7 +55,7 @@ body{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: purple;
 }
 
 /* Dropdown content (hidden by default) */
