@@ -6,11 +6,36 @@ h6 {color:indigo}
 body{
   background-color: lavender
 }
-.header img {
+div.header img {
   float: left;
   width: 90px;
   height: 62px;
   background: #555;
+}
+div.indiapic1 img {
+  float: none;
+  width: 450px;
+  height: 200px;
+  background: #555;
+}
+div.indiapic2 img {
+  float:none;
+  width: 475px;
+  height: 200px;
+  background: #555;
+}
+div.indiapic3 img {
+  float:none;
+  width: 425px;
+  height: 200px;
+  background: #555
+}
+
+div.indiapic4 img {
+  float:none;
+  width: 425px;
+  height: 250px;
+  background: #555
 }
 
 .header h1 {
