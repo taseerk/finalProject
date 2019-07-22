@@ -38,6 +38,27 @@ div.indiapic4 img {
   background: #555
 }
 
+div.mexicopic img {
+  float:none;
+  width: 425px;
+  height: 200px;
+  background: #555;
+}
+
+div.mexicopic2 img {
+  float:none;
+  width: 325px;
+  height: 400px;
+  background: #555;
+}
+
+div.mexicopic3 img {
+  float:none;
+  width: 400px;
+  height: 200px;
+  background: #555;
+}
+
 .header h1 {
   position: left;
   top: 18px;
