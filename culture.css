@@ -59,6 +59,10 @@ div.mexicopic3 img {
   background: #555;
 }
 
+div.pakistanpic img{
+  float:none;
+}
+
 .header h1 {
   position: left;
   top: 18px;
