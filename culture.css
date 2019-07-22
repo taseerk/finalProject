@@ -1,9 +1,10 @@
-h1 {color:purple; font-size:50px; border-style: solid; border-color: purple}
+h1 {color:limegreen; font-size:50px; border-style: solid; border-color: limegreen}
 h2 {color:purple; font-size:35px;}
 h3 {color:mediumorchid; font-size:25px;}
+h5 {color:orange; font-size:50px; border-style: solid; border-color: orange}
 h6 {color:indigo}
 body{
-  background-color: lavender
+  background-color: mintcream
 }
 div.header img {
   float: left;
