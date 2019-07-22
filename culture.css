@@ -1,10 +1,11 @@
-h1 {color:purple; font-size:50px; border-style: solid; border-color: purple}
+h1 {color:limegreen; font-size:50px; border-style: solid; border-color: limegreen}
+h5 {color:orange; font-size:50px; border-style: solid; border-color: orange}
 h2 {color:purple; font-size:35px;}
 h3 {color:mediumorchid; font-size:25px;}
 h4 {color:mediumorchid; font-size:25px;}
 h6 {color:indigo}
 body{
-  background-color: lavender
+  background-color: mintcream
 }
 div.header img {
   float: left;
@@ -36,6 +37,27 @@ div.indiapic4 img {
   width: 425px;
   height: 250px;
   background: #555
+}
+
+div.mexicopic img {
+  float:none;
+  width: 425px;
+  height: 200px;
+  background: #555;
+}
+
+div.mexicopic2 img {
+  float:none;
+  width: 325px;
+  height: 400px;
+  background: #555;
+}
+
+div.mexicopic3 img {
+  float:none;
+  width: 400px;
+  height: 200px;
+  background: #555;
 }
 
 .header h1 {
