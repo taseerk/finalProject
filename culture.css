@@ -1,12 +1,13 @@
-h1 {color:limegreen; font-size:50px; border-style: solid; border-color: limegreen}
-h5 {color:orange; font-size:50px; border-style: solid; border-color: orange}
-h2 {color:purple; font-size:35px;}
-h9 {color:blue; font-size:25px;}
-h7 {color:limegreen;font-size:25px;}
-h8 {color:red;font-size:25px}
-h4 {color:mediumorchid; font-size:25px;}
-h6 {color:indigo}
-h3 {font-size: 16px}
+h1 {color: green; font-size:50px; border-style: solid; border-color: green; font-family: Tahoma, Geneva, sans-serif}
+h5 {color:orange; font-size:50px; border-style: solid; border-color: orange; font-family: Tahoma, Geneva, sans-serif}
+h2 {color:green; font-size:35px; font-family: Tahoma, Geneva, sans-serif}
+h9 {color:green; font-size:25px; font-family: Tahoma, Geneva, sans-serif}
+h7 {color:limegreen;font-size:25px; font-family: Tahoma, Geneva, sans-serif}
+h8 {color:red;font-size:25px; font-family: Tahoma, Geneva, sans-serif}
+h4 {color:mediumorchid; font-size:25px; font-family: Tahoma, Geneva, sans-serif}
+h6 {color: forestgreen; font-family: Tahoma, Geneva, sans-serif}
+h3 {font-size: 16px; font-family: Tahoma, Geneva, sans-serif}
+p {font-family: Tahoma, Geneva, sans-serif}
 
 body{
   background-color: mintcream
@@ -121,8 +122,8 @@ div.nigeriapic img{
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+  background-color: green;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 /* Links inside the navbar */
@@ -155,7 +156,7 @@ div.nigeriapic img{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: purple;
+  background-color: darkgreen;
 }
 
 /* Dropdown content (hidden by default) */
@@ -186,4 +187,15 @@ div.nigeriapic img{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
