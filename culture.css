@@ -1,9 +1,9 @@
 h1 {color:green; font-size:100px; border-style: solid; border-color: green; border-width: 5px; font-family: fantasy, serif;}
-h5 {color:green; font-size:50px; border-style: solid; border-color: green; font-family: Tahoma, Geneva, sans-serif}
+h5 {color:green; font-size:50px; border-style: solid; border-color: green; border-width: 3px; font-family: Tahoma, Geneva, sans-serif}
 h2 {color:green; font-size:35px; font-family: Tahoma, Geneva, sans-serif}
 h9 {color:green; font-size:25px; font-family: Tahoma, Geneva, sans-serif}
 h7 {color:limegreen;font-size:25px; font-family: Tahoma, Geneva, sans-serif}
-h8 {color:red;font-size:25px; font-family: Tahoma, Geneva, sans-serif}
+h8 {color:green ;font-size:25px; font-family: Tahoma, Geneva, sans-serif}
 h4 {color:mediumorchid; font-size:25px; font-family: Tahoma, Geneva, sans-serif}
 h6 {color: forestgreen; font-family: Tahoma, Geneva, sans-serif}
 p {font-family: Tahoma, Geneva, sans-serif}
@@ -43,6 +43,10 @@ h9 {
 ul {
   margin: 35px 150px 50px 150px;
 }
+h3 {
+  margin: 0px 90px 0px 90px;
+}
+
 
 div.header img {
   float: left;
@@ -111,88 +115,114 @@ div.nigeriapic img{
   height: 200px;
 }
 
-.header h1 {
-  position: left;
-  top: 18px;
-  left: 10px;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+body {
+  padding: 20px 80px;
+  background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
 }
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: green;
-  font-family: Tahoma, Geneva, sans-serif;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+#logo {
+  font-family: 'Open Sans', sans-serif;
+  color: green;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 105px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #EDEDED 3px 2px 0;
+  position: relative;
 }
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: darkgreen;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
+#logo:after {
+  content:"Culture Corner";
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  left: 0px;
+  top: 30px;
 }
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
+#logo:after {
+  /*background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
+  background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, green 25%, green 50%, transparent 50%, transparent 75%, green 75%);
+  background-size: 4px 4px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -5;
+  display: block;
+  text-shadow: none;
+}
+#menu {
+  width: 1090px;
+  height: 90px;
+  list-style: none;
+  margin: 10px 0 0 0; padding: 25px 10px;
+  border-top: 4px double #AAA;
+  border-bottom: 4px double #AAA;
+  position: relative;
+  text-align: center;
+}
+#menu li {
+  display: inline-block;
+  width: 173px;
+  margin: 0 10px;
+  position: relative;
+  -webkit-transform: skewy(-3deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: 200ms all;
+}
+#menu li a {
+  text-transform: uppercase;
+  font-family: Open sans, sans-serif;
+  font-weight: 800;
+  display: block;
+  background: #FFF;
+  padding: 2px 7px;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
   text-decoration: none;
-  display: block;
-  text-align: left;
+  position: relative;
+  z-index: 1;
+  text-shadow:
+		1px 1px 0px #FFF,
+		2px 2px 0px #999,
+		3px 3px 0px #FFF;
+	background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,.05) 100%);
+	-webkit-transition: 1s all;
+	background-image: -webkit-linear-gradient(left top,
+		transparent 0%, transparent 25%,
+		rgba(0,0,0,.15) 25%, rgba(0,0,0,.15) 50%,
+		transparent 50%, transparent 75%,
+		rgba(0,0,0,.15) 75%);
+  background-size: 4px 4px;
+	box-shadow:
+		0 0 0 1px rgba(0,0,0,.4) inset,
+		0 0 20px -5px rgba(0,0,0,.4),
+		0 0 0px 3px #FFF inset;
 }
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
+#menu li:hover {
+	width: 203px;
+	margin: 0 -5px;
 }
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+#menu a:hover {
+  color: grey;
 }
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+#menu li:after,
+#menu li:before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 100%;
+  background: #BBB;
+  -webkit-transform: skewY(8deg);
+  x-index: -3;
+	border-radius: 4px;
 }
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+#menu li:after {
+	background-image: -webkit-linear-gradient(left, transparent 0%, rgba(0,0,0,.4) 100%);
+  right: 0;
+  top: -4px;
+}
+#menu li:before {
+  left: 0;
+  bottom: -4px;
+	background-image: -webkit-linear-gradient(right, transparent 0%, rgba(0,0,0,.4) 100%);
 }
